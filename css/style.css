@@ -29,6 +29,10 @@ body {
     line-height: 14px;
 }
 
+.secondary-nav .item-link {
+    color: #808080;
+}
+
 .main {
     text-align: center;
     padding-top: 120px;

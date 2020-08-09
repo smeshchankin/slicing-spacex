@@ -83,6 +83,9 @@ body {
     text-transform: uppercase;
     margin-bottom: 45px;
 }
+.table {
+    margin-bottom: 200px;
+}
 .table-column {
     width: 300px;
     padding-top: 7px;

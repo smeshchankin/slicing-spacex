@@ -5,4 +5,6 @@
         poster: 'img/poster.jpg',
         overlay: false
       });
+
+    new Rellax('.rocket');
 })();

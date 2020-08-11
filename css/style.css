@@ -177,11 +177,32 @@ body {
 }
 
 @media (max-width: 576px) {
+    .main {
+        padding-top: 50px;
+    }
     .rocket {
         position: static;
         margin-bottom: 30px;
     }
     .table {
         margin-bottom: 0;
+    }
+    .table-column {
+        font-size: 14px;
+        width: 150px;
+    }
+    .features {
+        padding-bottom: 0;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer-nav .list {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-nav .item {
+        margin-bottom: 10px;
     }
 }

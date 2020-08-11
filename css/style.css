@@ -171,6 +171,9 @@ body {
     .rocket {
         max-width: 180px;
     }
+    .video {
+        width: 100%;
+    }
 }
 
 @media (max-width: 576px) {

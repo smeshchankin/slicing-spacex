@@ -147,3 +147,12 @@ body {
     border-radius: 6px;
     text-decoration: none;
 }
+
+@media (max-width: 960px) {
+    .rocket {
+        max-width: 230px;
+    }
+    .table-column {
+        width: 250px;
+    }
+}

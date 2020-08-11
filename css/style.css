@@ -156,3 +156,19 @@ body {
         width: 250px;
     }
 }
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header .logo {
+        margin-bottom: 20px;
+    }
+    .header .main-nav {
+        margin-bottom: 20px;
+    }
+    .rocket {
+        max-width: 180px;
+    }
+}

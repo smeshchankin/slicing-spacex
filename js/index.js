@@ -6,5 +6,7 @@
         overlay: false
       });
 
-    new Rellax('.rocket');
+    if (document.body.clientWidth >= 576) {
+      new Rellax('.rocket');
+    }
 })();

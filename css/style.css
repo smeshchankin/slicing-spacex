@@ -175,6 +175,10 @@ body {
 
 @media (max-width: 576px) {
     .rocket {
-        position: relative;
+        position: static;
+        margin-bottom: 30px;
+    }
+    .table {
+        margin-bottom: 0;
     }
 }

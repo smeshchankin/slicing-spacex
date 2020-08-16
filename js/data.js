@@ -15,16 +15,10 @@
     populateTable('.features-row', overview);
 
     function populateList(selector, list) {
-        const node = document.querySelector(selector);
-        const parent = node.parentElement;
-        const next = node.nextElementSibling;
-
-        list.forEach(function(value) {
-            const component = node.cloneNode(true);
-            component.innerHTML = fill(component.innerHTML, 'value', value);
-            parent.insertBefore(component, next);
+        const table = list.map(function (value) {
+            return { value: value};
         });
-        parent.removeChild(node);
+        populateTable(selector, table);
     }
 
     function populateTable(selector, list) {

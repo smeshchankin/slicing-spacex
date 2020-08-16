@@ -1,5 +1,6 @@
 (function() {
     populateList('.main-nav > .list > .item', ['Falcon 9', 'Falcon Heavy', 'Dragon', 'Updates']);
+    populateList('.secondary-nav > .list > .item', ['About', 'Gallery', 'Shop']);
 
     function populateList(selector, list) {
         const node = document.querySelector(selector);

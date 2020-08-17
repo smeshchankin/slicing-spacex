@@ -5,12 +5,12 @@
         ['Twitter', 'Youtube', 'Instagram', 'Flickr', 'LinkedIn', 'Privacy', 'Policy']);
 
     const overview = [
-        { name: 'HEIGHT', metric: '70 m', us: '229.6 ft' },
-        { name: 'DIAMETER', metric: '12.2 m', us: '39.9 ft' },
-        { name: 'MASS', metric: '1,420,788 kg', us: '3,125,735 lb' },
-        { name: 'PAYLOAD TO LEO', metric: '63,800 kg', us: '140,660 lb' },
-        { name: 'PAYLOAD TO GTO', metric: '26,700 kg', us: '58,860 lb' },
-        { name: 'PAYLOAD TO MARS', metric: '16,800 kg', us: '37,040 lb' }
+        { name: 'height', metric: '70 m', us: '229.6 ft' },
+        { name: 'diameter', metric: '12.2 m', us: '39.9 ft' },
+        { name: 'mass', metric: '1,420,788 kg', us: '3,125,735 lb' },
+        { name: 'payload to LEO', metric: '63,800 kg', us: '140,660 lb' },
+        { name: 'payload to GTO', metric: '26,700 kg', us: '58,860 lb' },
+        { name: 'payload to MARS', metric: '16,800 kg', us: '37,040 lb' }
     ];
     populateTable('.features-row', overview);
 

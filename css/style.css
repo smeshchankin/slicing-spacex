@@ -92,6 +92,9 @@ body {
 .feature-name {
     text-transform: uppercase;
 }
+.feature-us {
+    color: #B2B0B2;
+}
 
 .features-title {
     font-weight: bold;

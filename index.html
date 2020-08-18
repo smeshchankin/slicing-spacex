@@ -16,14 +16,14 @@
         <nav class="main-nav">
             <ul class="list">
                 <li class="item">
-                    <a href="#" class="item-link">{{value}}</a>
+                    <a data-list="menu-1" href="#" class="item-link">{{value}}</a>
                 </li>
             </ul>
         </nav>
         <nav class="secondary-nav">
             <ul class="list">
                 <li class="item">
-                    <a href="#" class="item-link">{{value}}</a>
+                    <a data-list="menu-2" href="#" class="item-link">{{value}}</a>
                 </li>
             </ul>
         </nav>
@@ -39,7 +39,7 @@
         <div class="overview">
             <h2 class="features-title">Falcon Heavy<br />Overview</h2>
             <table class="table">
-                <tr class="features-row">
+                <tr data-list="features" class="features-row">
                     <td class="table-column feature-name">{{name}}</td>
                     <td class="table-column">{{metric}} / <span class="feature-us">{{us}}</span></td>
                 </tr>
@@ -62,7 +62,7 @@
         <img src="img/logo.svg" alt="Space X logo" class="logo" />
         <nav class="footer-nav">
             <ul class="list">
-                <li class="item"><a href="#" class="item-link">{{value}}</a></li>
+                <li data-list="menu-footer" class="item"><a href="#" class="item-link">{{value}}</a></li>
             </ul>
         </nav>
         <p class="footer-text">

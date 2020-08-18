@@ -12,22 +12,20 @@
         { name: 'payload to GTO', metric: '26,700 kg', us: '58,860 lb' },
         { name: 'payload to MARS', metric: '16,800 kg', us: '37,040 lb' }
     ];
-    populateTable('.features-row', overview);
+    populateList('.features-row', overview);
 
-    function populateList(selector, list) {
-        const table = list.map(function (value) {
-            return { value: value};
-        });
-        populateTable(selector, table);
-    }
-
-    function populateTable(selector, list) {
-        const node = document.querySelector(selector);
+    function populateList(node, list) {
+        if (typeof node === 'string') {
+            node = document.querySelector(node);
+        }
         const parent = node.parentElement;
         const next = node.nextElementSibling;
 
         list.forEach(function(row) {
             const component = node.cloneNode(true);
+            if (typeof row !== 'object') {
+                row = { value: row };
+            }
             component.innerHTML = fillData(component.innerHTML, row);
             parent.insertBefore(component, next);
         });

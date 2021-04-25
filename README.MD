@@ -1,5 +1,5 @@
 # Slicing SpaceX
-[Open GtHub Pages](http://smeshchankin.github.io/slicing-spacex)
+[Open GitHub Pages](http://smeshchankin.github.io/slicing-spacex)
 
 SpaceX Landing Page 
 
